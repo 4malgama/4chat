@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/theme">
+        <file>resources/themes/dark.qss</file>
+    </qresource>
+    <qresource prefix="/ui">
+        <file>resources/ui/down_arrow_dark.png</file>
+        <file>resources/ui/up_arrow_dark.png</file>
+        <file>resources/ui/handle.png</file>
+        <file>resources/ui/checked.png</file>
+        <file>resources/ui/checked_disabled.png</file>
+        <file>resources/ui/checked_hover.png</file>
+        <file>resources/ui/unchecked.png</file>
+        <file>resources/ui/unchecked_disabled.png</file>
+        <file>resources/ui/unchecked_hover.png</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <file>resources/icons/gold.png</file>
+        <file>resources/icons/money.png</file>
+    </qresource>
+</RCC>

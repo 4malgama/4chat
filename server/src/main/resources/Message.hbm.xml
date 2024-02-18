@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name = "amalgama.chat.database.Message" table = "users">
+        <id name = "id" type = "big_integer" column = "id">
+            <generator class="native"/>
+        </id>
+        <property name = "text" column = "text" type = "string"/>
+        <property name = "time" column = "time" type = "integer"/>
+        <property name = "attachments" column = "attachments" type = "string"/>
+        <property name = "isSticker" column = "isSticker" type = "integer"/>
+    </class>
+</hibernate-mapping>
